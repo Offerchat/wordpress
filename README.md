@@ -1,5 +1,6 @@
 Offerchat WP Plugin
 ===================
+
 Contributors: eralph
 Tags: offerchat, live chat, plugin
 Requires at least: 3.0.1
