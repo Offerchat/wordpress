@@ -67,8 +67,8 @@ function ofc_code_snippet(){
     echo '    var oc = document.createElement("script");';
     echo '    oc.type = "text/javascript";';
     echo '    oc.async = true;';
-    // echo '    oc.src = ("https:" == document.location.protocol ? "https://" : "http://") + "d1cpaygqxflr8n.cloudfront.net/p/js/widget.min.js?r=1";';
-    echo '    oc.src = ("https:" == document.location.protocol ? "https://" : "http://") + "local.offerchat.com:3000/widget.js?r=1";';
+    echo '    oc.src = ("https:" == document.location.protocol ? "https://" : "http://") + "d1cpaygqxflr8n.cloudfront.net/p/js/widget.min.js?r=1";';
+    // echo '    oc.src = ("https:" == document.location.protocol ? "https://" : "http://") + "local.offerchat.com:3000/widget.js?r=1";';
     echo '    var s = document.getElementsByTagName("script")[0];';
     echo '    s.parentNode.insertBefore(oc, s);';
     echo '  }());';
