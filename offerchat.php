@@ -34,7 +34,8 @@ function offerchat_conf(){
 ?>
 
   <style type="text/css">
-  #ofc-metabox{position:relative;z-index:0;max-width:360px;background:white;border:1px solid #dfdfdf;-moz-box-shadow:inset 0 1px 0 #fff;-webkit-box-shadow:inset 0 1px 0 white;box-shadow:inset 0 1px 0 white;-webkit-border-radius:3px;border-radius:3px;padding:7px 25px; margin-top:30px;}
+  #ofc-metabox{  float: left; position:relative;z-index:0;max-width:360px;background:white;border:1px solid #dfdfdf; border-radius:5px;padding:7px 25px; margin-top:30px;}
+  #ofc-screenshot{ margin-left: 20px; margin-top: 30px; float: left; width: 300px; height: 408px; background: url('https://www.offerchat.com/wp-content/uploads/plugin-screenshot.png') no-repeat; }
   </style>
 
   <div class="wrap">
@@ -48,9 +49,12 @@ function offerchat_conf(){
         <p><input type="text" value="<?php echo get_option('ofc_insert_key'); ?>" name="ofc_insert_key" size="25" class="regular-text code" style="font-size: 14px; padding: 8px 5px;"/></p>
         <p><input type="submit" class="button-primary" value="Submit" name="submit" /></p>
         <div class="form-wrap">
-          <p><strong>Note:</strong><br>The API Key can be located in the following menu: <br/><br/>Website Name Tab -> Settings -> Page Settings</p>
+          <p><strong>Where to find your API key?</strong><br>Click on your profile image > Websites > Select your website. <br><br>You can find the API key under the 'Websites' section</p>
         </div>
       </form>
+    </div>
+    <div id="ofc-screenshot">
+      
     </div>
   </div>
 
