@@ -47,7 +47,7 @@ Check out the [Offerchat](http://www.offerchat.com "Offerchat") website to know 
 Installation
 ------------
 
-1. Install the plugin through the plugin directory or manually upload the zip file to the `/wp-content/plugins/` directory
+1. Install the plugin by copying the `offerchat.php` file to `/wp-content/plugins/offerchat/`. Note: if `offerchat` folder does not exist, create it.
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Navigate to `Plugins Menu > Offerchat` and enter your `API Key` then press Submit button
 4. Done! Check your website if the offerchat widget is up.
